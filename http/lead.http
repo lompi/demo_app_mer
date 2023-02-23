@@ -1,0 +1,10 @@
+POST http://localhost:8080/leads
+Content-Type: application/json
+
+{
+  "id": "{{$uuid}}"
+}
+
+###
+
+GET http://localhost:8080/leads/47cabbfd-66b2-4e0f-8f82-d9bccdc58e59

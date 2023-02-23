@@ -1,0 +1,11 @@
+grumphp:
+    tasks:
+        composer: ~
+        jsonlint: ~
+        phpcsfixer:
+            config: .php-cs-fixer.php
+        phpstan: ~
+        securitychecker_enlightn:
+            lockfile: ./composer.lock
+            run_always: false
+        yamllint: ~
